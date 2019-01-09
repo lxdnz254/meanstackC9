@@ -1,0 +1,15 @@
+# Ignore files from this C9 Stack
+
+dump.*.*.tgz
+*.keystore
+faceapp/
+facebook_app2/
+meanApp/
+myApp/
+sidelog/
+www/node_modules/
+data/
+apk/
+.c9/
+dump/
+phonegap-facebook-plugin/

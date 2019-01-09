@@ -1,0 +1,37 @@
+<html ng-app="mean-retail">
+  <head>
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js">
+    </script>
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.js">
+    </script>
+    <script type="text/javascript" src="/www/bin/index.js"></script>
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/mean-retail.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <nav-bar></nav-bar>
+
+    <div class="content-wrapper" ng-view>
+     
+	
+</div>
+ <div class="categories-wrapper">
+    <h1>
+      <a href="#/category/Books">
+        <i class="fa fa-book"></i>
+        Books
+      </a>
+    </h1>
+    <h1>
+      <a href="#/category/Electronics">
+        <i class="fa fa-laptop"></i>
+        Electronics
+      </a>
+    </h1>
+  </div>
+  </body>
+</html>
