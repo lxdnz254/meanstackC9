@@ -1,11 +1,10 @@
 # Ignore files from this C9 Stack
 
-dump.*.*.tgz
 *.keystore
+node_modules/
 faceapp/
 facebook_app2/
 meanApp/
-myApp/
 sidelog/
 www/node_modules/
 data/
