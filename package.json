@@ -1,6 +1,9 @@
 {
   "name": "mean-stack-lxdnz",
   "version": "1.0.0",
+  "engines": {
+      "node": "4.2.4"
+  },
   "license": "MIT",
   "scripts": {
     "ng": "ng",
