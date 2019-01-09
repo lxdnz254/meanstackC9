@@ -1,9 +1,6 @@
 {
   "name": "mean-stack-lxdnz",
   "version": "1.0.0",
-  "engines": {
-      "node": "4.2.4"
-  },
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -11,8 +8,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "bower install && gulp build-libs && gulp build && ng build --output-path dist"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +24,7 @@
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
     "body-parser": "^1.18.3",
+    "bower": "^1.8.4",
     "core-js": "^2.5.4",
     "express": "^4.16.3",
     "mongodb": "^3.1.1",
@@ -48,7 +45,7 @@
     "karma-coverage-istanbul-reporter": "~2.0.0",
     "karma-jasmine": "~1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "~5.3.0",
+    "protractor": "^5.4.2",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
     "typescript": "~2.7.2"
