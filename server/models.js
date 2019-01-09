@@ -3,7 +3,7 @@ var _ = require('underscore');
 var IP = process.env.IP;
 
 module.exports = function(wagner) {
-  mongoose.connect('mongodb://'+process.env.IP+':27017/test');
+  mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://'+process.env.IP+':27017/test');
 
   wagner.factory('db', function() {
     return mongoose;
