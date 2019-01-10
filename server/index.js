@@ -1,14 +1,10 @@
 var express = require('express');
 var wagner = require('wagner-core');
-var bodyParser = require('body-parser');
-var mongodb = require('mongodb');
 
 require('./models')(wagner);
 require('./dependencies')(wagner);
 
 var app = express();
-
-app.use(bodyParser.json());
 
 app.use(function(req, res, next) {
 	res.append('Access-Control-Allow-Origin', req.headers.origin || '*');

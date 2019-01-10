@@ -6,7 +6,7 @@ angular.module('starter.services', [])
 
 .factory('$facebookLogin', function($user, $window) {
   return function() {
-    var url = 'https://mean-stack-lxdnz254.c9users.io/auth/facebook';
+    var url = 'https://mean-stack-lxdnz.herokuapp.com/auth/facebook';
     if ($window.cordova) {
       url += '?redirect=' +
         encodeURIComponent('http://i.imgur.com/XseoGPD.png');

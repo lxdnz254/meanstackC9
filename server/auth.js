@@ -18,7 +18,7 @@ function setupAuth(User, Config, app) {
     {
       clientID: Config.facebookClientId,
       clientSecret: Config.facebookClientSecret,
-      callbackURL: 'https://mean-stack-lxdnz254.c9users.io/auth/facebook/callback',
+      callbackURL: 'https://mean-stack-lxdnz.herokuapp.com/auth/facebook/callback',
       profileFields: ['id', 'emails', 'name']
     },
     function(accessToken, refreshToken, profile, done) {
@@ -56,13 +56,13 @@ function setupAuth(User, Config, app) {
       passport.authenticate('facebook',
         {
           scope: ['email'],
-          callbackURL: 'https://mean-stack-lxdnz254.c9users.io/auth/facebook/callback?redirect=' + redirect
+          callbackURL: 'https://mean-stack-lxdnz.herokuapp.com/auth/facebook/callback?redirect=' + redirect
         })(req, res, next);
     });
 
   app.get('/auth/facebook/callback',
     function(req, res, next) {
-      var url = 'https://mean-stack-lxdnz254.c9users.io/auth/facebook/callback?redirect=' +
+      var url = 'https://mean-stack-lxdnz.herokuapp.com/auth/facebook/callback?redirect=' +
         encodeURIComponent(req.query.redirect);
       passport.authenticate('facebook', { callbackURL: url })(req, res, next);
     },
