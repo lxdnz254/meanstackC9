@@ -15,7 +15,7 @@ angular.module('starter', ['templates', 'mean-retail.components',
         // Transform **all** $http calls so that requests that go to `/`
         // instead go to a different origin, in this case localhost:3000
         if (req.url.charAt(0) === '/') {
-          req.url = 'https://mean-stack-lxdnz254.c9users.io' + req.url;
+          req.url = 'https://mean-stack-lxdnz.herokuapp.com' + req.url;
           req.withCredentials = true;
           
         }

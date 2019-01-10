@@ -10,6 +10,6 @@ module.exports = function(wagner) {
   wagner.factory('fx', fx);
 
   wagner.factory('Config', function() {
-    return JSON.parse(fs.readFileSync('server/config.json').toString());
+    return JSON.parse(fs.readFileSync(__dirname+'/config.json').toString());
   });
 };
