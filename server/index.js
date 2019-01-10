@@ -29,7 +29,7 @@ app.use('/api/v1', require('./api')(wagner));
 // For instance, '/6-examples/hello-http.html' in
 // the browser will show the '../6-examples/hello-http.html'
 // file.
-app.use(express.static('../myApp/www/', { maxAge: 4 * 60 * 60 * 1000 /* 2hrs */ }));
+app.use(express.static('myApp/www/', { maxAge: 4 * 60 * 60 * 1000 /* 2hrs */ }));
 
 // Create a database variable outside of the database connection callback to reuse the connection pool in your app.
 var db;
