@@ -30,7 +30,7 @@
     "express": "^4.16.3",
     "mongodb": "^3.1.1",
     "rxjs": "^6.0.0",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.27"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.6.8",
