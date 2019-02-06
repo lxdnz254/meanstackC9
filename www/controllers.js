@@ -83,7 +83,7 @@ exports.CheckoutController = function($scope, $user, $http) {
     number: '4242424242424242',
     cvc: '123',
     exp_month: '12',
-    exp_year: '2016'
+    exp_year: '2026'
   };
 
   $scope.checkout = function() {
