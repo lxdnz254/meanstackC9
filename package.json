@@ -13,7 +13,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.3",
-    "@angular/cli": "^7.3.6",
+    "@angular/cli": "^7.3.9",
     "@angular/common": "^6.0.3",
     "@angular/compiler": "^6.0.3",
     "@angular/compiler-cli": "^6.0.7",
@@ -25,20 +25,20 @@
     "@angular/router": "^6.0.3",
     "body-parser": "^1.18.3",
     "bower": "^1.8.8",
-    "core-js": "^3.0.0",
+    "core-js": "^3.1.2",
     "express": "^4.16.3",
-    "mongodb": "^3.2.2",
+    "mongodb": "^3.2.6",
     "rxjs": "^6.4.0",
     "zone.js": "^0.8.29"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.6",
-    "@angular/language-service": "^7.2.8",
+    "@angular/language-service": "^7.2.11",
     "@types/jasmine": "~3.3.12",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "~11.12.0",
+    "@types/node": "~12.0.2",
     "codelyzer": "~4.5.0",
-    "jasmine-core": "~3.3.0",
+    "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.0.1",
     "karma-chrome-launcher": "~2.2.0",
@@ -47,7 +47,7 @@
     "karma-jasmine-html-reporter": "^1.4.0",
     "protractor": "^6.0.0",
     "ts-node": "~8.0.3",
-    "tslint": "~5.14.0",
+    "tslint": "~5.16.0",
     "typescript": "~2.9.2"
   }
 }
