@@ -28,7 +28,7 @@
     "core-js": "^3.1.2",
     "express": "^4.17.1",
     "mongodb": "^3.2.6",
-    "rxjs": "^6.4.0",
+    "rxjs": "^6.5.2",
     "zone.js": "^0.8.29"
   },
   "devDependencies": {
