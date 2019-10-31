@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.9",
-    "@angular/language-service": "^8.2.11",
+    "@angular/language-service": "^8.2.13",
     "@types/jasmine": "~3.4.4",
     "@types/jasminewd2": "~2.0.8",
     "@types/node": "~12.11.1",
